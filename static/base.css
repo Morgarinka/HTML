@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    
+}
+
+header {
+	display: inline;
+    
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 100px;
+	width: 100px;
+
+}
+
+.buttons {
+    display: inline-block;
+	margin-left: 500px;
+
+}
+	
+    
+.shopping-cart{
+	display:inline-block;
+	margin-left: 500px;
+
+}
+.search-container{
+	display: inline-block;
+	margin-left: 500px;
+}
