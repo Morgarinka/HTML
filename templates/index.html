@@ -1,47 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/base.css">
-   
-    <title>{% block title %} Store {% endblock %}</title>
+    <title>Динамическое обновление</title>
+    <style>
+        #user-list {
+            list-style-type: none;
+            padding: 0;
+        }
+    </style>
 </head>
-
 <body>
-    <header>
-        <div class="logo">
-            <h1>Brand<br>HouseSV</h1>
-        </div>
-       
-        
-        <div class="buttons">
-            <button>Доставка и оплата</button>
-            <button>Где мой заказ</button>
-            <button>Возврат товара</button>
-            <button>О компании</button>
-            <button>Контакты</button>
-        </div>
+    <h1>Mozilla is cool</h1>
+    <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
 
-        <nav>
-            <div class="search-container">
-                <button class="search-button" id="search-btn">🔍 Поиск</button>
-                <input type="text" id="search-input" placeholder="Поиск..." aria-label="Поиск" style="display: none;">
-            </div>
-            <div class="shopping-cart">
-                <a href="cart.html">🛒 Корзина <span id="cart-count">0</span></a>
-            
-            <a href="index.html">🏠 Домой</a>
-          
-                <a href="dashboard.html">👤 Аккаунт</a>
-               
-          
-                <a href="login.html">🔑 Вход</a>
-                <a href="register.html">📝 Регистрация</a>
-            </div>
-        </nav>
-    </header>
+    <h2>Список пользователей</h2>
+    <ul id="user-list"></ul> <!-- Удалили статические элементы -->
+    <button id="load-users">Загрузить пользователей</button>
+
+     <script src="static/script.js"></script>
 </body>
-
 </html>
