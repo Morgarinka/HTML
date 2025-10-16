@@ -38,6 +38,11 @@ myImage.onclick = function () {
     }
 };
 
+var myButton = document.querySelector("button");
+var myHeading = document.querySelector("h1");
+
+
+
 
 // document.querySelector("html").onclick = function () {
 //     alert ("Ouch! Stop poking me!");
